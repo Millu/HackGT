@@ -1,5 +1,11 @@
 <?php
 include "Services/Twilio/Capability.php";
+
+<dependency>
+  <groupId>org.scribe</groupId>
+  <artifactId>scribe</artifactId>
+  <version>1.3.2</version> // please use always the latest version
+</dependency>
  
 // AccountSid and AuthToken can be found in your account dashboard
 $accountSid = "ACXXXXXXXXXXXXXXXX"; 
